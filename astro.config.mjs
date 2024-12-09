@@ -7,7 +7,4 @@ export default defineConfig({
   integrations: [
     sitemap(),
   ],
-  experimental: {
-    contentCollectionCache: true,
-  },
 });

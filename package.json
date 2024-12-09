@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "spochart-co",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.1.6",
-    "astro": "^4.15.9"
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.0.4"
   }
 }
