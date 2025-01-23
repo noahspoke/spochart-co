@@ -14,6 +14,9 @@ importers:
       astro:
         specifier: ^5.0.4
         version: 5.0.4(rollup@4.28.1)(typescript@5.5.4)
+      simple-icons:
+        specifier: ^14.3.0
+        version: 14.3.0
 
 packages:
 
@@ -1294,6 +1297,10 @@ packages:
 
   shiki@1.24.1:
     resolution: {integrity: sha512-/qByWMg05+POb63c/OvnrU17FcCUa34WU4F6FCrd/mjDPEDPl8YUNRkRMbo8l3iYMLydfCgxi1r37JFoSw8A4A==}
+
+  simple-icons@14.3.0:
+    resolution: {integrity: sha512-GXWVF/UBkR04Hg3qcoEOHzI9ZNedXPhcphWraWRCJAenkG6Vsf5ycmVFDX90OK+5oeg86M5tYqBNS4npgG7/5g==}
+    engines: {node: '>=0.12.18'}
 
   simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
@@ -3023,6 +3030,8 @@ snapshots:
       '@shikijs/types': 1.24.1
       '@shikijs/vscode-textmate': 9.3.0
       '@types/hast': 3.0.4
+
+  simple-icons@14.3.0: {}
 
   simple-swizzle@0.2.2:
     dependencies:
